@@ -102,7 +102,7 @@ public class Main {
                         System.out.println("\t1. Exámenes Generales");
                         System.out.println("\t2. Prueba de Embarazo");
                         System.out.println("\t3. Anti-Doping");
-                        System.out.println("\t4. problema1.Hemoglobina Glicosilada");
+                        System.out.println("\t4. Hemoglobina Glicosilada");
                         System.out.print("Selección: ");
                         opcion = Integer.parseInt(br.readLine());
                         System.out.println();
@@ -137,6 +137,7 @@ public class Main {
                         System.out.println("Edad: " + examen.getPaciente().getEdad());
                         System.out.println("problema1.Examen: " + examen.getTipo());
                         System.out.println("Valor a pagar: $" + examen.precioAPagar());
+                        break;
 
                     case 3: // Finalizar ejecución del programa
                         System.out.println("Gracias por usar nuestro sistema. Cerrando...");
